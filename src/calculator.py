@@ -23,5 +23,4 @@ def divide(first_number: int, second_number: int):
 
 def power(first_number: int, second_number: int):
     """Return the result of rasing the first number to the power of the second number"""
-    return first_number ** second_number
-
+    return first_number**second_number
