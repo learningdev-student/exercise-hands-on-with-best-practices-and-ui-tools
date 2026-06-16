@@ -2,13 +2,16 @@ def add(first_number: int, second_number: int):
     """Return the sum of two numbers."""
     return first_number + second_number
 
+
 def substract(first_number: int, second_number: int):
     """Return the difference of two numbers."""
     return first_number - second_number
 
+
 def multiply(first_number: int, second_number: int):
     """Return the product of two numbers."""
     return first_number * second_number
+
 
 def divide(first_number: int, second_number: int):
     """Return the quotient of two numbers."""
@@ -16,3 +19,9 @@ def divide(first_number: int, second_number: int):
         raise ValueError("Cannot divide by zero.")
 
     return first_number / second_number
+
+
+def power(first_number: int, second_number: int):
+    """Return the result of rasing the first number to the power of the second number"""
+    return first_number ** second_number
+
