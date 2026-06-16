@@ -1,4 +1,4 @@
-from src.calculator import add, substract, multiply, divide
+from src.calculator import add, substract, multiply, divide, power
 
 
 def test_add():
@@ -33,3 +33,9 @@ def test_divide_by_zero():
         assert str(e) == "Cannot divide by zero."
     else:
         assert False, "Expected ValueError when dividing by zero."
+
+
+def test_power():
+    assert power(2, 3) == 8
+    assert power(-1, 2) == 1
+    assert power(0, 5) == 0
