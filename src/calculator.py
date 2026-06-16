@@ -12,6 +12,7 @@ def multiply(first_number: int, second_number: int):
     """Return the product of two numbers."""
     return first_number * second_number
 
+
 def divide(first_number: int, second_number: int):
     """Return the quotient of two numbers."""
     if second_number == 0:
